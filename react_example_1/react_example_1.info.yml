@@ -10,3 +10,8 @@ presentation: react
 add_js:
   footer:
     'react-example-1.js': {attributes: {type: text/babel}}
+configuration:
+  text:
+    type: textfield
+    title: 'What do you want to say?'
+    default_value: 'Hello world!'

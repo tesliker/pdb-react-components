@@ -3,6 +3,8 @@ var data = [
     {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
 ];
 
+console.log(Drupal.settings);
+
 var CommentList = React.createClass({
     render: function() {
 /*        var commentNodes = this.props.data.map(function(comment) {
@@ -12,7 +14,6 @@ var CommentList = React.createClass({
             </Comment>
             );
         });*/
-        console.log(this.props.data.data);
         if (this.props.data.data != null)
         {
             return (
