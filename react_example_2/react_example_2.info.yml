@@ -1,7 +1,7 @@
-name: React Example
-machine_name: react-example-1
+name: React Example 2
+machine_name: react-example-2
 type: pdb
-description: 'React Example Component 1'
+description: 'React Example Component 2'
 package: React
 version: '1.0.0'
 core: '8.x'
@@ -9,7 +9,10 @@ module_status: active
 presentation: react
 add_js:
   footer:
-    'react-example-2.js': {}
+    'react-example-2.js': {attributes: {type: text/babel}}
+add_css:
+  header:
+    'react-example-2.css': {}
 configuration:
   react_name:
     type: textfield
